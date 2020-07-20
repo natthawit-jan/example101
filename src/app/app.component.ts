@@ -17,7 +17,7 @@ export class AppComponent {
   }
 
   processFullname(): void {
-    this.result = this.firstname + " " + this.lastname
+    this.result = `${this.firstname} ${this.lastname}`
   }
 
   inputLastname(lastname: string): void {
